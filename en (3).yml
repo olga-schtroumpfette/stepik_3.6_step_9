@@ -1,0 +1,1417 @@
+---
+en:
+  about:
+    backing-bumble-alt: Logo for Bumble Ventures
+    backing-dg-alt: Logo for Digital Garage Ventures
+    backing-greenvisor-alt: Logo for Green Visor Capital
+    backing-title: Backed by Experienced Top Tier VC Partners
+    dom-bio: Dominic has worked in a handful of different software industries around
+      the bay area. Prior to Pie he led the engineering team at Thirdlove. He is a
+      software engineering machine!
+    dom-name: Dominic Sheehy
+    dom-title: Co-founder/CTO
+    malte-bio: Malte is an experienced executive leader with a demonstrated history
+      of leading change and scale in the retail industry. Before joining Pie he successfully
+      scaled and IPOed Boozt.com who is now the leading Nordic fashion e-commerce
+      company and then held C-level positions at leading fashion companies in the
+      Nordics.
+    malte-name: Malte Kamp Videbæk
+    malte-title: CEO Europe
+    mission-text: To deliver delightful tax refund solutions for our most important
+      industry - travel.
+    mission-title: Our Mission
+    our-team-title: Our Leaders
+    our-values-title: Our Values
+    profile-alt: Headshot of %{name}
+    stats:
+      text_1: Brand Partners
+      text_2: Continents
+      text_3: Refunded
+    sunny-bio: Sunny is a product leader with experience across consumer and fintech
+      companies in Silicon Valley. He has led product and growth teams at a number
+      of successful startups. Prior to Pie he led the global payments team at Udacity,
+      working to democratize education.
+    sunny-name: Sunny Long
+    sunny-title: Co-founder/CEO
+    values:
+      title_1: Delighting Tourists
+      title_2: Empowering Store Partners
+      title_3: Convenience and Safety
+      value_1: 'We agonize over creating a delightful experience for
+        tourists as they are abroad. %{travelers_link:Learn more}'
+      value_1_alt: An icon showing a tourist with luggage and a passport.
+      value_2: 'We provide stores a unique platform to better service
+        their tourist customers. With data-driven insights and marketing tools, our
+        store partners are able to leverage Pie to increase their sales. %{merchants_link:Learn
+        more}'
+      value_2_alt: An icon showing a storefront.
+      value_3: Pie’s digital first approach allows for a fully contactless solution,
+        promoting ease and health safety.
+      value_3_alt: An icon showing a person at a desk using a computer.
+  account: Account Details
+  account_details: Account Details
+  activerecord:
+    attributes:
+      doorkeeper/application:
+        name: Name
+        redirect_uri: Redirect URI
+    errors:
+      models:
+        doorkeeper/application:
+          attributes:
+            redirect_uri:
+              forbidden_uri: is forbidden by the server.
+              fragment_present: cannot contain a fragment.
+              invalid_uri: must be a valid URI.
+              relative_uri: must be an absolute URI.
+              secured_uri: must be an HTTPS/SSL URI.
+  add_comment: Add Comment
+  address:
+    address_1: Address 1
+    address_2: Address 2
+    city: City
+    country: Country
+    label: Address
+    postal_code: Postal Code
+    province: Province
+  apps_landing:
+    header_top_jumbo: Download the Pie VAT app to claim your refund
+    header_top_subtext: Enter the order's short-code to claim below
+    short_code: ABC123
+  are_you_sure: Are you sure?
+  buttons:
+    column_visibility: Column Visibility
+    download_csv: Download CSV
+    use: Use
+  cancel: Cancel
+  close: Close
+  comment: Comment
+  comments: Comments
+  cookie_popup:
+    button_text: Okay
+    warning_html: By using this site you are agreeing to our %{terms} and our %{privacy}
+  devise:
+    confirmations:
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm
+        your email address in a few minutes.
+      send_paranoid_instructions: If your email address exists in our database, you
+        will receive an email with instructions for how to confirm your email address
+        in a few minutes.
+    failure:
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
+    mailer:
+      confirmation_instructions:
+        subject: '[Pie Systems] Confirmation instructions'
+      email_changed:
+        subject: '[Pie Systems] Email Changed'
+      password_change:
+        subject: '[Pie Systems] Password Changed'
+      reset_password_instructions:
+        subject: '[Pie Systems] Reset password instructions'
+      unlock_instructions:
+        subject: '[Pie Systems] Unlock instructions'
+    omniauth_callbacks:
+      failure: Could not authenticate you from %{kind} because "%{reason}".
+      success: Successfully authenticated from %{kind} account.
+    passwords:
+      no_token: You can't access this page without coming from a password reset email.
+        If you do come from a password reset email, please make sure you used the
+        full URL provided.
+      send_instructions: You will receive an email with instructions on how to reset
+        your password in a few minutes.
+      send_paranoid_instructions: If your email address exists in our database, you
+        will receive a password recovery link at your email address in a few minutes.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
+    registrations:
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see
+        you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not
+        sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not
+        sign you in because your account is locked.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent
+        to your email address. Please follow the link to activate your account.
+      update_needs_confirmation: You updated your account successfully, but we need
+        to verify your new email address. Please check your email and follow the confirm
+        link to confirm your new email address.
+      updated: Your account has been updated successfully.
+    sessions:
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
+    unlocks:
+      send_instructions: You will receive an email with instructions for how to unlock
+        your account in a few minutes.
+      send_paranoid_instructions: If your account exists, you will receive an email
+        with instructions for how to unlock it in a few minutes.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+  discounts:
+    add_line_item_discount: Add Discount
+    add_order_discount: Add Order Discount
+    delete_discount: Delete Discount
+    discount_label: Discount
+    discounted_line_total: Discounted Line Total
+    errors:
+      amount_less_than_total: The given discount, %{discount} is greater than the
+        total price %{total}
+      group_less_than_total: 'The sum of the discounts is greater than the total price '
+    money_amount_label: Direct Discount
+    percentage_label: Percent Discount
+  doorkeeper:
+    applications:
+      buttons:
+        authorize: Authorize
+        cancel: Cancel
+        destroy: Destroy
+        edit: Edit
+        submit: Submit
+      confirmations:
+        destroy: Are you sure?
+      edit:
+        title: Edit application
+      form:
+        error: Whoops! Check your form for possible errors
+      help:
+        native_redirect_uri: Use %{native_redirect_uri} if you want to add localhost
+          URIs for development purposes
+        redirect_uri: Use one line per URI
+        scopes: Separate scopes with spaces. Leave blank to use the default scopes.
+      index:
+        callback_url: Callback URL
+        name: Name
+        new: New Application
+        title: Your applications
+      new:
+        title: New Application
+      show:
+        actions: Actions
+        application_id: Application Id
+        callback_urls: Callback urls
+        scopes: Scopes
+        secret: Secret
+        title: 'Application: %{name}'
+    authorizations:
+      buttons:
+        authorize: Authorize
+        deny: Deny
+      error:
+        title: An error has occurred
+      new:
+        able_to: This application will be able to
+        prompt: Authorize %{client_name} to use your account?
+        title: Authorization required
+      show:
+        title: Authorization code
+    authorized_applications:
+      buttons:
+        revoke: Revoke
+      confirmations:
+        revoke: Are you sure?
+      index:
+        application: Application
+        created_at: Created At
+        date_format: '{Y-}m-{0} {H:}M:%S'
+        title: Your authorized applications
+    errors:
+      messages:
+        access_denied: The resource owner or authorization server denied the request.
+        credential_flow_not_configured: Resource Owner Password Credentials flow failed
+          due to Doorkeeper.configure.resource_owner_from_credentials being unconfigured.
+        invalid_client: Client authentication failed due to unknown client, no client
+          authentication included, or unsupported authentication method.
+        invalid_grant: The provided authorization grant is invalid, expired, revoked,
+          does not match the redirection URI used in the authorization request, or
+          was issued to another client.
+        invalid_redirect_uri: The requested redirect uri is malformed or doesn't match
+          client redirect URI.
+        invalid_request: The request is missing a required parameter, includes an
+          unsupported parameter value, or is otherwise malformed.
+        invalid_scope: The requested scope is invalid, unknown, or malformed.
+        invalid_token:
+          expired: The access token expired
+          revoked: The access token was revoked
+          unknown: The access token is invalid
+        resource_owner_authenticator_not_configured: Resource Owner find failed due
+          to Doorkeeper.configure.resource_owner_authenticator being unconfigured.
+        server_error: The authorization server encountered an unexpected condition
+          which prevented it from fulfilling the request.
+        temporarily_unavailable: The authorization server is currently unable to handle
+          the request due to a temporary overloading or maintenance of the server.
+        unauthorized_client: The client is not authorized to perform this request
+          using this method.
+        unsupported_grant_type: The authorization grant type is not supported by the
+          authorization server.
+        unsupported_response_type: The authorization server does not support this
+          response type.
+    flash:
+      applications:
+        create:
+          notice: Application created.
+        destroy:
+          notice: Application deleted.
+        update:
+          notice: Application updated.
+      authorized_applications:
+        destroy:
+          notice: Application revoked.
+    layouts:
+      admin:
+        nav:
+          applications: Applications
+          home: Home
+          oauth2_provider: OAuth2 Provider
+      application:
+        title: OAuth authorization required
+  ecom_landing:
+    arrow_diagram:
+      cta_text: Download the app and start saving
+      label: Process
+      step_1:
+        text: Shop online and have products delivered to you in Denmark or Norway.
+        title: 1. Shop first
+      step_2:
+        text: Forward order email confirmation to %{email_link}. Within 48 hours you'll
+          receive a code to complete the refund process in the Pie mobile app.
+        title: 2. Forward your order
+      step_3:
+        text: Upload supporting documentation and complete the refund request process
+          in the Pie mobile app.
+        title: 3. Claim your refund in the app
+      step_4:
+        text: Once the refund is approved, we will send your refund to your bank account
+          around 24 hours!
+        title: 4. Receive refund
+      title: Fast and Hassle-Free
+    cta_breaker:
+      cta: learn more in the app
+      text: The more you shop, the more you save.
+      title: Up to 30% More Refund Compared to Industry Average
+    faq:
+      cta: Download the App
+      faq_1:
+        answer: After forwarding your email order confirmation Pie will reach out
+          to the store on your behalf to initiate the VAT refund. On average you will
+          be able to start claiming your VAT within 48 hours and the process in total
+          will only take a couple of minutes. Refunds are being paid out within 24
+          hours of your arrival back home. On your behalf, Pie will do everything
+          within its capability to help claim your refund.
+        question: How long does it take?
+      faq_2:
+        answer: Currently, we support Denmark and Norway. Look out for more countries
+          being added soon.
+        question: Which countries do you support?
+      faq_3:
+        answer: Yes, it does. You do however need to physically export the purchased
+          item(s) from either Denmark or Norway. Note - this is for online orders
+          shipped to Denmark and Norway, and then taken out of the EU (or Norway)
+          by the purchaser. This is not for orders that are shipped outside of the
+          EU.
+        question: Does this work with all tax-free eligible online orders?
+      faq_4:
+        answer: Yes for orders from Danish and Norwegian retailers. We will work to
+          help you claim your VAT refund back  and communicate on your behalf with
+          the stores. However, please note some stores may opt out of the VAT refund
+          scheme - which is not required by law. Regardless, Pie will work on your
+          behalf to claim your refund.
+        question: Are all stores eligible?
+      faq_5:
+        answer: Absolutely. Your privacy is of utmost importance to us. All information
+          is handled securely and follows all regulations and GDPR requirements.
+        question: Is my information safe with you?
+      footer: Live support in the app
+      label: FAQ
+      title: Pie Is Here to Help You with Your Questions
+    header:
+      jumbo: Tax Free Online Shopping in the Nordics
+      primary_btn: Download App
+      secondary_btn: Refund Process
+      subtext: Traditionally, tax free shopping has been restricted to physical stores.
+        However, with COVID and a surge in e-commerce, we at Pie are here to extend
+        tax free to online purchases as well!
+    icon_bullets:
+      bullet_1:
+        text: Your order is eligible if your purchase is over 300 DKK in Denmark or
+          315 NOK in Norway (per receipt)
+        title: 300 DKK or 315 NOK
+      bullet_2:
+        text: You’re eligible if you are living in, or have permanent residence in,
+          a non-EU country (Greenland included).
+        title: Non-EU Resident
+      label: Eligibility
+      subtext: In order to receive your refund, your purchase needs to meet the following
+        criteria.
+      title: Save with Pie Today
+    store_signup:
+      cta: Join hundreds of leading retailers using Pie
+      title: Are you a retailer that would like to offer offline and online VAT refunds?
+  errors:
+    messages:
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please
+        request a new one
+      expired: has expired, please request a new one
+      invalid_currency: must be a valid currency (eg. '100', '5%{decimal}24', or '123%{thousands}456%{decimal}78').
+        Got %{currency}
+      not_found: not found
+      not_locked: was not locked
+      not_saved:
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: '%{count} errors prohibited this %{resource} from being saved:'
+  generic_error: Something went wrong. Please try again or contact customer support
+    for help.
+  home:
+    company: Company Name
+    contact_us: Send
+    download_app: Get a bigger slice of the Pie!
+    email: Email
+    footer:
+      about: About
+      careers: Careers
+      copy_write: Copyright Pie Systems %{year}
+      pie_japan: Pie Japan
+    footer_cta:
+      subtext: Download the Pie VAT app. Start saving time and money, today.
+      title: Get started now!
+    get_started:
+      subtext: Contact us, we can set up a quick call, or stop by the store.
+      title: Ready to get started?
+    header_bottom_jumbo: Join our pilot program in Denmark!
+    header_bottom_subtext: Merchants, please provide us with your email and we’ll
+      be in touch!
+    header_top_jumbo: Tax free shopping for modern tourists
+    header_top_subtext: Today’s Tax Free Shopping is analogue, opaque and with high
+      fees. At Pie we are changing that. Through our digital platform we make claiming
+      VAT refunds simple, fast and secure. <br/> The best part? It is 100% free and
+      provides tourists with the market’s lowest fees and retailers with the highest
+      revenue share.
+    how_it_works:
+      step_1: Use Pie VAT to scan the merchant’s QR code
+      step_2: Scan your boarding pass.
+      step_3: Upload images at home.
+      subtitle: Get your money back in three easy steps.
+      title: How it works
+    learn_more: Learn More
+    merchant_login: Retailer Login
+    modal:
+      subtext: We'll be in touch!
+      title: Thanks!
+    name: Full Name
+    products:
+      merchant_subtext: We are 100% free to use! Less than five minutes to onboard.
+        Join some of the top stores in Copenhagen using Pie.
+      merchant_title: Pie VAT for Stores
+      traveler_subtext: Getting started with Pie is super simple. Download our app
+        today to learn more and explore our stores.
+      traveler_title: Pie VAT for Tourists
+    retailers: Retailers
+    tourists: Tourists
+    user_login: For Tourists
+  jp_landing:
+    app_flow:
+      step_1: Please contact us first
+      step_2: We will propose usage methods and introductions that suit your company.
+      step_3: After contracting and applying to the National Tax Agency, start using
+        (no cost will be incurred)
+      title: Application flow
+    banner:
+      line_1: We are an approved sender
+      line_2: From October 1, 2021, duty-free sales procedures will shift to computerization
+      line_3: Have you reviewed / considered the tax exemption system you are using?
+    compliance:
+      teaser: Compliance and data safety
+      text_1: Pie Systems is an approved sender approved by the National Tax Agency.
+        We are digitizing duty-free sales procedures in Japan based on Japanese laws
+        and regulations. In addition, we constantly monitor fraudulent transactions
+        on the system and operate it as a safe platform so that you can use it with
+        confidence.
+      text_2: In addition, it complies with the European Personal Information Protection
+        Regulation "GDPR (General Data Protection Regulation", which is considered
+        to be the strictest in the world, ensuring high security. In terms of system
+        security, the PieVAT system is With the industry&#39;s highest level of security
+        standards and encryption, it is a platform that can provide flexible services
+        while maintaining high security.
+      title: Pie complies with the law and manages data securely.
+    get_started:
+      title: Click here for inquiries and requests for materials regarding the tax
+        exemption computerization system "PieVAT".
+    hero:
+      cta_text: Request for materials, inquiries
+      text: Pie VAT is a tax exemption procedure digitization system. As it is a tax
+        exemption approved business certified by the National Tax Agency, you can
+        use it with confidence.
+      title: Fully compatible with the tax exemption computerization system from October
+        1, 2021
+    mission:
+      attribution: Co-founder and CEO of Pie - Sunny Long
+      quote: Our mission is to support the business of our store partners in each
+        country globally. We will support the business from the moment we introduce
+        Pie.
+      statement: Pie's mission is "Empowering Local Partners, Globally". We would
+        like to support the business of our store partners in each country globally.
+        The digitization of tax exemption procedures has begun to progress in Japan
+        as well, but it is not just a matter of digitizing information, but what is
+        really the biggest burden for store partners and how to remove that burden.
+        We consider whether we can do it and provide services. From the day you introduce
+        Pie, you'll notice how wasteful the tax exemption process has been.
+    nav_link: Request materials
+    process:
+      step_1: Issue a 6-digit code (or QR code) for the store
+      step_2: As usual, check out at your cashier, issue a receipt and hand it to
+        the customer
+      step_3: The customer scans the 6-digit code (or QR code) and receipt with the
+        Pie app and finishes!
+      title: '"Pie''s tax exemption procedure is completed in 3 steps!"'
+    product:
+      block_1:
+        text: Pie allows buyers to use the app to perform tax exemption procedures
+          to analyze data that was previously unseen. We can provide the analysis
+          function to make better business decisions.
+        title: Detailed data analysis
+      block_2:
+        text: Not only data analysis but also real-time marketing is possible. You
+          can send messages, coupon offers, etc. to potential buyers.
+        title: Marketing & Promotion
+      block_3:
+        text: It is possible to inform foreign tourists of the business and location
+          of your shop. We will introduce the shops on Pie&#39;s app so that tourists
+          can discover and explore the shops.
+        title: Tell a story
+      title: By utilizing the data, we can help store partners improve their business.
+    sticky_cta: Request materials, free demo, consultation for introduction here
+    testimonial: ""
+    why:
+      slide_1:
+        text: There is no initial cost or monthly usage fee for installation.
+        title: Initial cost, monthly usage fee, 0 yen
+      slide_2:
+        text: There is no need to create tax exemption documents or enter customer
+          information. You can dramatically reduce the time required for tax exemption
+          procedures.
+        title: The tax exemption procedure time of the shop will be 1/10
+      slide_3:
+        text: You can complete the procedure using only your personal computer, and
+          you do not need to purchase or install new equipment.
+        title: No need to purchase new equipment
+      slide_4:
+        text: Pie will support you in applying for duty-free sales licenses and notifications
+          of changes at the time of introduction, so you can easily start duty-free
+          sales without worry.
+        title: No complicated installation procedure is required for installation
+      teaser: Why Pie is chosen
+      title: Pie is a service born in Europe, a country with advanced duty-free sales.
+        We can provide you with a state-of-the-art duty-free sales process learned
+        from that experience.
+  jp_nta:
+    birth: Date of Birth
+    consumTotal: Order Consumption Total
+    docType: Document Type
+    errors:
+      R0020-LPNO: Landing permit number must be set if the entrance document type
+        is one of "Ship landing without passport", "Crew landing permit", "Emergency
+        landing permit", or "Distress landing permit".
+      R0030-LQTT: Tax-exempt liquor sales total must not be zero if this is a liquor
+        tax exempt sale
+      R0031-LQTT: Tax-exempt liquor sales total must be in the range -999999999 to
+        999999999 if this is a liquor tax exempt sale
+      R0032-LQTT: The tax-exempt liquor sales total must be within 100 Yen of the
+        sum of the sales prices of the individual liquor items
+      R0033-LQTT: The liquor sales total must not be set if this is not a liquor tax-exempt
+        sale
+      R0040-LQTN: The liquor sales total must be set if this is a liquor tax-exempt
+        sale
+      R0041-LQTN: The total number of tax-exempt liquor items must be an integer in
+        the range -999999 to 999999 if this is a liquor tax-exempt sale
+      R0042-LQTN: 'The total number of tax-exempt liquor items must match the sum
+        of the individually marked liquor items sold '
+      R0043-LQTN: The total number of tax-exempt liquor items must not be set if this
+        is not a liquor tax-exempt sale
+      R0050-LQCD: The liquor code for this item must be set because it is marked as
+        a tax-exempt liquor item
+      R0051-LQCD: The liquor code must be a 3-digit integer for this liquor item
+      R0052-LQCD: The liquor code must not be set for a non-liquor item
+      R0060-LQAL: The alcohol content of the item must be set for liquor items
+      R0061-LQAL: The alcohol content must not be set for non-liquor items
+      R0070-LQTR: The liquor tax rate must be set for liquor items
+      R0071-LQTR: The liquor tax rate must be an integer of with up to 7 digits
+      R0072-LQTR: The liquor tax rate must not be set for non-liquor items
+      R0080-LQCP: The liquor container capacity must be set for liquor items
+      R0081-LQCP: The liquor container capacity must be an integer with up to 7 digits
+        for liquor items
+      R0082-LQCP: The liquor container capacity must not be set for non-liquor items
+      R0090-LQNU: The liquor tax number must be set for liquor items
+      R0091-LQNU: The liquor tax number must be an integer from -9999 to 9999 for
+        liquor items
+      R0092-LQNU: The liquor tax number must not be set for non-liquor items
+      R0100-TRNM: If the item was shipped at sale the transportation business name
+        must be set, have at most 30 characters, and be less than 90 bytes
+      R0101-TRNM: If the item was shipped at sale the transportation business name
+        must adhere to the API's character requirements
+      R0102-TRNM: If the item was not shipped at sale the transportation business
+        name must not be set
+      R0110-GENE: The general goods total must be within 100 yen of the sum of the
+        prices of the general individual goods sold
+      R0120-CONS: The consumable goods total must be within 100 yen of the sum of
+        the prices of the consumable goods sold
+      R0130-LQON: When there is at least 1 individual tax-exempt liquor item in the
+        sale, the liquor tax-exmpt field must be set for the whole order
+      R0140-SERI: The line item serial numbers must be in ascending order and increase
+        by exactly 1 for each item
+      S0101-SEID: senderId must be set
+      S0102-SEID: senderId must be 21 digits
+      S0104-SEID: senderId can only be numbers
+      S0201-IDTP: senderIdType must be set
+      S0209-IDTP: senderIdType must be 0 or 1
+      S0301-SENO: sendNo must be set
+      S0302-SENO: sendNo must be 17 digits
+      S0304-SENO: sendNo must have the format "yyyymmddhhMMssnnn" where "n" is a digit
+      S0401-PRID: proceduresId must be set
+      S0409-PRID: proceduresId must be "A"
+      S0501-VERS: version must be set
+      S0509-VERS: version must 1
+      S0601-NAME: name must be set
+      S0602-NAME: name must be between 1 and 39 characters long
+      S0604-NAME: name must contain only uppercase alphabetic characters, spaces,
+        and commas
+      S0701-NATN: nation must be set
+      S0702-NATN: nation must be exactly 3 characters
+      S0704-NATN: nation must contain only uppercase alphabetic characters
+      S0801-BIRT: birth must be set
+      S0807-BIRT: birth must have the format "yyyymmdd"
+      S0901-STAT: status must be set
+      S0902-STAT: status must be 2 digits
+      S0904-STAT: status must contain only numbers
+      S1001-LNDT: landDate must be set
+      S1007-LNDT: landDate must have the format "yyyymmdd"
+      S1101-DCTP: docType must be set
+      S1109-DCTP: docType must be a number from 1-6
+      S1202-PPNO: passportNo must be from 7 to 11 characters
+      S1204-PPNO: passportNo must be only captial alphanumeric characters
+      S1302-LPNO: landingPermitNo must be from 1 to 15 characters
+      S1304-LPNO: landingPermitNo container only alphanumeric characters
+      S1409-PRTP: portType must be a digit from 0 to 4
+      S1507-DPDT: departDate must be a date with the format yyyymmdd
+      S1602-PORT: port must be 3 characters
+      S1604-PORT: port must be uppercase alphabetic characters
+      S1702-VHCL: vehicle must be between 1 and 7 characters
+      S1704-VHCL: vehicle must contain only alphanumeric characters
+      S1801-SHID: shopId must be set
+      S1802-SHID: shopId must be 21 digits
+      S1804-SHID: shopId must contain only numbers
+      S1909-SHTP: shopType must be 0 or 1
+      S2009-SUON: sumOrNot must be 0 or 1
+      S2101-SHNM: shopName must be set
+      S2102-SHNM: shopName must be from 1 to 70 characters
+      S2103-SHNM: shopName must be less than 210 bytes of UTF-8
+      S2110-SHNM: shopName must conform to the character constraint specifications
+        of the API
+      S2201-SHPL: shopPlace must be set
+      S2202-SHPL: shopPlace must be from 1 to 70 characters
+      S2203-SHPL: shopPlace must be less than 210 bytes of UTF-8
+      S2210-SHPL: shopPlace must conform to the character constraint specifications
+        of the API
+      S2301-BZNM: bizName must be set
+      S2302-BZNM: bizName must be from 1 to 50 characters
+      S2303-BZNM: bizName must be less than 150 bytes of UTF-8 encoded characters
+      S2310-BZNM: bizName must conform to the character constraint specifications
+        of the API
+      S2401-BZPL: bizPlace must be set
+      S2402-BZPL: bizPlace must be from 1 to 50 characters
+      S2403-BZPL: bizPlace must be less than 150 bytes of UTF-8 encoded characters
+      S2410-BZPL: bizPlace must conform to the character constraint specifications
+        of the API
+      S2501-SLDT: sellDate must be set
+      S2507-SLDT: sellDate must be a date in the format yyyymmdd
+      S2608-TIME: sellTime must be a time with the format hhMM
+      S2702-RCNO: receiptNo must have from 1 to 10 characters
+      S2704-RCNO: |-
+        receiptNo must contain only the following characters:
+        - alphabetic characters (uppercase, lowercase)
+        - numbers
+        - symbols  "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", " ", "/", ":", ".", "?", ";", "<", "=", ">", "@", "[", "\", "]", "^", "_", "` ", "{", "|", "}", "~"
+        - spaces
+      S2801-TRON: transOrNot must be set
+      S2809-TRON: transOrNot must be 0 or 1
+      S2901-GENE: generalTotal must be set
+      S2904-GENE: generalTotal must be an integer
+      S2905-GENE: generalTotal must be at least -999999999
+      S2906-GENE: generalTotal must be at most 999999999
+      S3001-CONS: consumTotal must be set
+      S3004-CONS: consumTotal must be an integer
+      S3005-CONS: consumTotal must be at least -999999999
+      S3006-CONS: consumTotal must be at most 999999999
+      S3101-LQON: lqExemptOrNot must be set
+      S3109-LQON: lqExemptOrNot must be 0 or 1
+      S3202-NOTE: note must be less than 30 characters
+      S3203-NOTE: note must be less than 90 bytes of valid UTF-8
+      S3210-NOTE: note must conform to the API character set specification
+      S3302-DETA: details must be between 1 and 50 characters
+      S3401-SERI: serial must be set
+      S3405-SERI: serial must be at least 1
+      S3406-SERI: serial must be at most 50
+      S3501-GOTP: goodsType must be set
+      S3509-GOTP: goodsType must be 1 for general articles or 2 for consumables
+      S3601-GONM: goodsName must be set
+      S3602-GONM: goodsName must be from 1 to 50 characters
+      S3603-GONM: goodsName must be at most 150 bytes of valid UTF-8 characters
+      S3610-GONM: goodsName must conform to the API character set specification
+      S3702-JNCD: janCode must be from 1 to 13 digits
+      S3704-JNCD: janCode must be a positive integer
+      S3801-NUMB: quantity must be set
+      S3804-NUMB: quantity must be an integer
+      S3805-NUMB: quantity must be at least -9999
+      S3806-NUMB: quantity must be at most 9999
+      S3902-UNIT: unit must be from 1 to 5 dgits
+      S3903-UNIT: unit must be at most 15 bytes of valid UTF-8
+      S3910-UNIT: unit must conform to the API character set specification
+      S4004-UNPR: unitPrice must be an integer
+      S4005-UNPR: unitPrice must be at least -999999999
+      S4006-UNPR: unitPrice must be at most 999999999
+      S4101-SLPR: price must be set
+      S4104-SLPR: price must be an integer
+      S4105-SLPR: price must be at least -999999999
+      S4106-SLPR: price must be at most 999999999
+      S4201-REDU: reduced must be set
+      S4209-REDU: reduced must be 0 for non-reduced tax rate items or 1 for reduced
+        tax rate items
+      S4301-LQIN: lqIndividual must be set
+      S4309-LQIN: lqIndividual must be 0 if the liquor tax was not applied to the
+        item or 1 if the liquor tax was applied
+      missing_required_attribute: 'Missing required attribute: %{attribute}'
+      missing_required_dependency: 'Missing required dependency: %{attribute}'
+    generalTotal: Order General Total
+    goodsName: Line Item Name
+    goodsType: Line Item Type
+    landDate: Landing Date
+    lqCapacity: Line Item Liquor Capacity
+    lqCode: Line Item Liquor Code
+    lqExemptOrNot: Order Liquor Exempt
+    lqIndividual: Line Item Is Liquor
+    lqNumber: Line Item Liquor Quantity
+    lqTaxRate: Line Item Liquor Tax Rate
+    lqTotal: Order Liquor Total
+    lqTotalNum: Order Liquor Quantity
+    name: Tourist Name
+    nation: Tourist Nationality
+    number: Line Item Quantity
+    payload: Payload
+    price: Line Item Price
+    reduce: Line Item Reduced
+    sellDate: Order Sell Date
+    shopId: Shop Id
+    status: Status of Residence
+    transName: Order Shipping Company Name
+    transOrNot: Order Shipped At Purchase
+  language: Language
+  line_item:
+    add_item: Add Item
+    back_to_order: Back to Order
+    errors:
+      line_item_totals_mismatch: The sum of line items plus taxes should be very close
+        to the order total
+      prices_dont_match: 'total does not equal Price Before Tax. Expected:
+        %{expected}, Given: %{given}'
+    header: Line Item
+    is_alcohol_label: Is Alcohol?
+    is_consumable_label: Consumable?
+    line_item_order_total: Line Item Order Total
+    line_total: Line Item Total
+    lq_capacity_label: Volume in ml (g for powder)
+    lq_code_label: Alcohol Code
+    lq_number_label: Alcohol Quantity
+    lq_tax_rate_label: Alcohol Tax Rate
+    name_label: Name
+    order_total: Order Total
+    quantity_label: Quantity
+    recent_line_items: Recent Line Items
+    reduced_tax_rate_label: Reduced Tax Rate? 8%
+    save: Save
+    table:
+      delete: Delete
+      delete_confirm: Are you sure you want to delete this?
+      details: Details
+      is_consumable: Consumable?
+      line_total: Line Total
+      name: Item Name
+      options: Options
+      order_count: Order Count
+      price: Price
+      quantity: Quantity
+      return_quantity: Return Quantity
+      total_tax: Total Tax
+      total_without_tax: Total Without Tax
+      unit_vat: Unit VAT
+    tax_included_in_total_label: Tax included in Total?
+    tax_label: Tax
+    tax_total: Tax Total
+    total_price_label: Total Price
+    trans_name_label: Shipping Company
+    trans_or_not_label: Shipping at purchase
+    unit_price_label: Unit Price
+    use_recent_line_item: Use Recent Line Item
+  line_item_attributes:
+    lq_code:
+      c000: Full liquor
+      c110: Sake
+      c115: Sake (foaming)
+      c117: Sake (foaming (GR))
+      c150: Synthesis of Sake
+      c152: Synthetic sake (Law)
+      c155: Synthetic sake (foaming)
+      c157: Synthetic sake (foaming (GR))
+      c210: Continuous distillation shochu
+      c215: Continuous distillation shochu (foaming)
+      c217: Continuous distillation shochu (foam (GR))
+      c250: Ungraded distilled shochu
+      c255: Ungraded distilled shochu (foaming)
+      c257: Ungraded distilled shochu (foaming (GR))
+      c310: sweet sake
+      c311: Mirin (Measures Act 1)
+      c312: Mirin (Law 2)
+      c313: Mirin (Law 3)
+      c315: Mirin (foaming)
+      c317: Mirin (foaming (GR))
+      c350: Beer
+      c410: Fruit wine
+      c415: Fruit wine (foaming)
+      c417: Fruit wine (foaming (GR))
+      c450: Sweet fruit wine
+      c455: Sweet fruit wine (foaming)
+      c457: Sweet fruit wine (foaming (GR))
+      c510: whisky
+      c515: Whiskey (foaming)
+      c517: Whiskey (foaming (GR))
+      c550: Brandy
+      c555: Brandy (foaming)
+      c557: Brandy (foaming (GR))
+      c570: The raw material for alcohol
+      c581: Malt beer (1) (malt proportion of 50% or more, or alcohol content above
+        10 degrees)
+      c582: Malt beer (2) (malt proportion of 25% or more than 50%)
+      c583: Low-malt beer (3) (Other)
+      c591: Other brew
+      c595: Other brew (foaming)
+      c597: Other brew (foaming (GR))
+      c610: Spirits
+      c615: Spirits (foaming)
+      c617: Spirits (foaming (GR))
+      c710: liqueur
+      c715: Liqueur (foaming)
+      c717: Liqueur (foaming (GR))
+      c820: Powder wine
+      c830: Other miscellaneous liquors
+      c831: Other miscellaneous liquors (mirin similar)
+      c832: Other miscellaneous liquors (others)
+      c833: Other miscellaneous liquors (mirin Luigi Measures Law applicable content
+        of 1)
+      c834: Other miscellaneous liquors (mirin Luigi Measures Law applicable content
+        of 2)
+      c837: Other miscellaneous liquors (others-foaming)
+      c838: Other miscellaneous liquors (mirin Luigi Measures Law applicable content
+        of 3)
+      c850: Miscellaneous liquors
+      c852: Miscellaneous liquors (mirin similar)
+      c855: Miscellaneous liquors (foaming)
+      c857: Miscellaneous liquors (foaming (GR))
+  merchant_landing:
+    compare:
+      subtext: A fully digitized end-to-end product where merchants can facilitate,
+        and consumers can claim, VAT refunds hassle-free at the touch of a button
+        on their mobile devices.
+      them:
+        reason_1: No revenue share
+        reason_2: Manual forms
+        reason_3: Opaque process
+        reason_4: No access to data
+        title: Competitors
+      title: Why merchants should use Pie VAT
+      us:
+        reason_1: Revenue share
+        reason_2: App powered
+        reason_3: Fully secure and transparent
+        reason_4: Easy access to all data
+        reason_5: Lower fraud
+        reason_6: No paperwork
+        reason_7: Targeted marketing
+        reason_8: Marketing after purchase
+        title: Pie VAT
+    footer:
+      copy_write: Copyright Pie Systems %{year}
+    get_started:
+      subtext: Leave your email, and we’ll reach out ASAP!
+      title: Ready to get started?
+    header_bold_info: Provide us with your email and join our program in Scandinavia!
+    header_button: Email
+    header_info: Provide us with your email and join our program in Scandinavia!
+    header_top_jumbo: For Retailers
+    header_top_subtext: Better insights, more revenue, free to use.
+    how_it_works:
+      step_1: No hardware integration and no paperwork
+      step_2: Access your dashboard with customer insights
+      step_3: Enjoy a revenue split on every VAT refund you process
+      subtitle: Our fully digital service is easy to use and takes less than 5 minutes
+        to set up
+      title: Sell more with less hassle
+    learn_more: Learn More
+    modal:
+      subtext: We'll be in touch!
+      title: Thanks!
+    quotes:
+      quote_1:
+        author: ""
+        body: A tourist wasn't able to get her VAT refund at the airport because the
+          kiosk wasn't open. With Pie, this will never happen!
+      quote_2:
+        author: ""
+        body: Pie Systems really values us as partners, even offering a revenue share.
+          We are in it together.
+      quote_3:
+        author: ""
+        body: Real time dashboarding is amazing - we always know exactly whats going
+          on.
+    setup:
+      step_1: No hardware integration
+      step_2: App powered
+      step_3: Fully secure and transparent
+      subtitle: Getting started with Pie Systems is super simple. Onboarding takes
+        less than 5 minutes!
+      title: Simple Setup for Merchants
+    stats:
+      text_1: merchants
+      text_2: refunds processed
+      text_3: sales lift from Pie
+  merchant_login:
+    forgot_password: Forgot your password?
+    login: Login
+    missed_confirmation: Didn't receive confirmation instructions?
+    password: Password
+    remember_me: Remember me
+    submit_login: Log In
+    title: Merchant Login
+  merchants:
+    edit_password: Edit Password
+    email: Email
+    login: Login
+    name: Name
+  metrics:
+    customers_by_country: Customer by country
+    mtd_purchases: MTD Purchases
+    mtd_request_rate: MTD Request Rate
+    mtd_sales: MTD Sales
+    mtd_vat: MTD VAT
+    purchases_per_day: Purchases per day
+  notifications:
+    counter_order_ready: Your order is ready. Please visit the counter.
+  passwords:
+    change_action: Change my password
+    change_your_password: Change your password
+    confirm_new: Confirm new password
+    current_password: Current Password
+    forgot_password: Forgot your password?
+    new_password: New Password
+    reset_password: Reset my password
+  pie_counters:
+    aqua_city_odaiba: PIE VAT Station is located on the West Wing, 4th floor of AQUACiTY
+      Odaiba. Please refer to the map.
+    default: Refer to the mall directory for the VAT counter location.
+    jp_mall_counter: You can find the VAT counter on the 3rd floor behind the Arby's.
+      Please bring your passport with you.
+  pie_wallet:
+    cash_out: Cash out
+    errors:
+      empty_wallet: There is no balance to withdraw
+      entry_payout_error: Issue with cash out. Contact Support.
+      missing_payable_account: Your wallet does not have a usable payable account.
+        Please try adding a new account.
+      rejected_order: '%{order_name} rejected'
+  pos:
+    front_systems: Front Systems (User name / Password)
+    front_systems_v2: Front Systems (API Key Access)
+    ipos: IPOS
+    square: Square
+    square_auth_failed: Square authorization failed. Please try again
+  privacy: Privacy policy
+  proofs:
+    basic_info: Are you eligible for a refund?
+    boat:
+      info: Please add an image of your cruise ticket
+      popup_body: Your Cruise Ticket helps us verify that you were on a sepcific cruise
+        ship.
+      popup_header: Cruise Ticket
+      title: Cruise Ticket
+    car:
+      info: Please upload a photo of your vehicle's license plate.
+      title: Vehicle License Plate Photo
+    customs_stamp_image:
+      info: Please upload a photo of your stamped receipt.
+      popup_body: An item in your order requires you to show your purchase to a customs
+        officer at the airport. Please get your receipt stamped, and upload an image
+        of the stamped receipt.
+      popup_header: Stop At Customs
+      title: Customs Stamp Image
+    document_type:
+      crew_landing: Crew Landing Permit
+      distress_landing: Distress Landing Permit
+      emergency_landing: Emergency Landing Permit
+      passport: Passport
+      ship_landing_with_passport: Landing Permit with Passport
+      ship_landing_without_passport: Landing Permit without Passport
+    expected_exit:
+      info: Please let us know how you plan on leaving the country, and when.
+      title: How are you leaving?
+    flight:
+      info: Please add an image of your boarding pass.
+      popup_body: Your board pass helps us deterime if and when you left the country
+      popup_header: Boarding Pass
+      title: Boarding Pass
+    home_address:
+      info: Set your address of permanent residence
+      title: Home Address
+    jp_buyers_pledge:
+      info: Please agree to the Buyers Pledge.
+      popup_body: I certify that goods listed as consumerable and general goods were
+        purchased by me for export from Japan within 30 days from the purchase date
+        and will not be consumed while in Japan.
+      popup_header: Buyers Pledge
+      title: Buyers Pledge
+    jp_document_type:
+      info: Which document did you use to enter Japan?
+      title: Document Used to Enter Japan
+    jp_landing_visa:
+      art: Artist
+      cultural: Cultural Activities
+      diplomatic: Diplomatic
+      entertainment: Entertainer Visa
+      family_stay: Dependent
+      info: What are your legal terms for entering Japan?
+      japanese_spouse: Spouse or Child of Japanese National (SCJN)
+      landing_permit: Entry By Landing Permit
+      law_or_accounting: Legal/Accounting Services
+      medical: Medical Services
+      national_non_resident: Japanese Nationality non-resident
+      news: Journalist
+      official: Official
+      other: Others
+      permanent_resident_spouse: Spouse or Child of Permanent Resident (SCPR)
+      popup_body: This Visa is usually added to your passport when you enter the country
+        by Customs. Please add some information from that Visa.
+      popup_header: Entrance Visa
+      religion: Religious Activities
+      short_stay: Temporary Visitor
+      specific_activity: Designated Activities
+      study_abroad: Student
+      title: Entrance Visa Information
+      training: Trainee
+    missing_requirements: Missing Requirements
+    passport:
+      info: Add the details of the document you used to enter the country
+      popup_body: This is used to help us verify your identity
+      popup_header: Travel Document
+      title: Travel Document
+    product_image:
+      info: Add one or more images of the items that your purchased.
+      popup_body: These images help us verify that you exported the items that you
+        purchased. Your Geo Location is required.
+      popup_header: Purchase Images
+      title: Add Purchase Images
+    proof_of_residency:
+      info: |-
+        Your passport country does not match your residency country. To
+                fully comply with EU regulations, you will need to help submit
+                additional proof of (permanent) residence. Please upload one of the
+                following: Current Driver's License, Job or (Permanent) Residence Visa,
+                Utility Bill (within 3 months), Recent Bank or Credit Card Statement.
+      title: Proof of Residency
+    receipt_image:
+      info: Add one or more images of the receipt from your purchase
+      popup_body: Images of the receipt help prove that the purchase value is correct.
+      popup_header: Receipt Images
+      title: Add Receipt Images
+    requirements_popup_body: Each country has a set of requirements that need to be
+      fulfilled by the tourist before they can receive a tax free refund.
+    requirements_popup_header: Purchase and Trip requirements
+    selfie:
+      info: Upload a selfie on to your profile page
+      title: Selfie
+    shipped_at_purchase:
+      info: Some stores allow you mail your items home.
+      popup_body: Let us know if you shipped your items home instead of taking them
+        with you. Please provide the shipping company name.
+      popup_header: Shipped at Purchase
+      title: Did you ship your items?
+    train:
+      info: Please add an image of your train ticket.
+      popup_body: This helps us know when you left the country.
+      popup_header: Train ticket
+      title: Train ticket
+    view_requirements: View Requirements
+    visa_stamp_image:
+      info: Please add an image of the Entrance Visa.
+      popup_body: A stamp is added to your passport when you enter the country. Please
+        takea photo of that stamp.
+      popup_header: Visa Image
+      title: Entrance Visa Image
+  property:
+    currency: Currency
+    default_tax_percentage: Default Tax Percentage
+    description: Store Description
+    label: Property
+    minimum_order_value: Minimum Order Value
+    name: Name
+    property_number: Property Number (P-number or similar)
+    short_code: Short Code
+  purchases:
+    activate_geo: Turn on Geo Location
+    add_another_image: Add Another image
+    add_line_items: Add Line Items
+    add_photos: Add Photos of your Purchase
+    add_photos_cta: Add Photos
+    add_photos_description: You will need to enable the geolocation on your device
+      so we know you're home!
+    add_qr_photo: Take Photo / Add QR Code
+    add_receipt_photo: Take / Add Receipt Photo
+    cancel_order: Cancel Order
+    dashboard: Dashboard
+    enter_code: Enter Code
+    errors:
+      already_claimed: Order has already been claimed.
+      expired_state: The order has expired, VAT can no longer be claimed for this
+        order.
+      image_size: The image is to large. Please keep it under 10MB
+      minimum_value_not_met: Minimum order total not met, must be at least %{minimum_total}
+      missing_code: Please enter a code.
+      missing_geo: Please allow the location of your devicse to be used.
+      missing_images: Please add an image of the items
+      missing_receipt: Please upload an image of the receipt
+      scanning_qr: Could not find a QR code in the image, try again or enter the code
+      unusable_code: The code you entered could not be used.
+    fetching_location: Fetching your location...
+    filters:
+      created_after: Created after
+      created_before: Created before
+      maximum_total: Maximum total
+      minimum_total: Minimum total
+    line_items: Line Items
+    missing_passport: Passport information will be added by the tourist in the App.
+    missing_receipt_photos: Receipt images will be added by the tourist in the App.
+    misssing_line_items: Line items will be added by a system operator.
+    new:
+      create_manually: Create without search
+      create_order: Create Order
+      edit: Edit
+      find_order: Find Order
+      integration_double_check_html: Double check the fields below. <br/> Ask the
+        customer for their email address.
+      not_shipped_at_purchase: Not shipped at purchase
+      optional: Optional
+      receipt_id_label: Receipt ID
+      receipt_id_placeholder: Enter Receipt ID
+      receipt_number_label: Receipt Number
+      receipt_number_placeholder: Enter Receipt Number
+      required: Required
+      send_order_to: Send Order To
+      shipped_at_purchase: Shipped at purchase
+      shipping_company_name: Shipping Company Name
+      skip_email_requirement: Create order without contact
+      tax_total_label: VAT Amount
+      tips:
+        first_html: Ask the customer to <b>download</b> the Pie VAT app.
+        second_html: Ask the customer to <b>take a picture</b> of the receipt right
+          now.
+      title: New Purchase
+      total_label: Order total (incl. VAT)
+      total_placeholder: Enter Total Amount
+      vat_placeholder: Enter Total VAT Amount
+      view_order_here: View order here
+    new_purchase: New Order
+    notices:
+      request_received: Your order has been requested.
+      review_pending: Your order will be reviewed.
+      successfully_created: Order was successfully created.
+    nta:
+      label: Japanese NTA Requests
+      nothing_yet: A system operator will verify information before notifying the
+        NTA.
+      send_button: Send to NTA
+      server_response: Server Response
+    order_canceled: Order canceled
+    original_details: Original Order Details
+    passport: Passport
+    purchase_from_merchant: Purchase from %{merchant}
+    receipt_photos: Receipt Photos
+    returns:
+      confirm: Are you sure you want to mark this order as returned?
+      create_return: Confirm Return
+      done: The order is now marked as returned.
+      excess_vat_refund: Excess VAT Refund
+      link_text: Returns
+      new_vat_refund: New VAT Refund
+      num_items_returned: '{quantity} item(s) returned'
+      plural: Returns
+      preview_return: Preview Return
+      process: Process Return or Cancel
+      refund: Refund
+      return_preview: Return Preview
+      returned_items_subtotal: Returned Items Subtotal
+    show:
+      already_sent_email: 'Email sent to:'
+      already_sent_sms: 'SMS sent to:'
+      customer_email: Customer Email
+      customer_scan: Ask the customer to scan the QR code
+      one_last_thing_modal:
+        dk:
+          tip_1: Have the customer take a picture of the receipt right now!
+          tip_2: Remind the customer to check their email in the next two days to
+            start their refund claim.
+        jp:
+          tip_1: <strong>Important!</strong> Inform the customer they will need to
+            complete their refund claim request today.
+          tip_2: Have the customer take a picture of the receipt right now!
+        "no":
+          tip_1: Have the customer take a picture of the receipt right now!
+          tip_2: Remind the customer to check their email in the next two days to
+            start their refund claim.
+        se:
+          tip_1: <strong>Important!</strong> Inform the customer they will need to
+            have their paper purchase receipt stamped by Customs when they leave Sweden.
+          tip_2: Have the customer take a picture of the receipt right now!
+          tip_3: Remind the customer to check their email in the next two days to
+            start their refund claim.
+      or: OR
+      popup:
+        action: Okay
+        tip_1: Have the customer take a picture of the receipt right now!
+        tip_2_html: Remind the customer to <strong>check their email in the next 36
+          hours</strong> to claim the refund
+        title: One Last Thing!
+      receipt_id_label: Receipt ID
+      send_order: Send Order
+      send_to_another: Resend to customer
+      send_to_sms: Customer Phone Number
+      short_code: Claim Code
+      show_qr_code: Show QR Code
+      tax_total_label: VAT Amount
+      tips:
+        first_html: If the customer has the app, have them request a refund, then
+          show them the QR code. <b> Give the customer the short code </b>
+        second_html: If the customer to prefers to claim via email, confirm their
+          email address, and have them <b>take a photo of the receipt</b>
+      title: Order
+      total_label: Order total (incl. VAT)
+    status:
+      approved: Approved
+      completed: Completed
+      expired: Expired
+      needs_approval: Needs Approval
+      needs_images: Needs Images
+      not_requested: Not Requested
+      refunded: Refunded
+      requested: Requested
+    status_label: Status
+    store_information: Store Information
+    tips:
+      first_html: Collect the <b>customer’s contact information when creating an order</b>.
+        They will receive their claim code and information about PIE VAT’s tax-free
+        process. (Remember to check spam folder)
+      header: Tips for success
+      second_html: <b>No email or phone number?</b> Click “create order without contact”
+        and have the tourist use the claim code to claim the order.
+      third_html: Ask the customer to <b>take a picture</b> of the receipt right now.
+    title: Purchases
+    update_receipt_photo: Replace / Retake Photo
+  referrals: Referrals
+  reporting:
+    current_status: Current Status
+    email_title: Pie Systems VAT Report
+    last_updated: Last Updated
+    purchase_count_html: There are %{number} purchases in the timerange.
+    sample_purchases: Purchases
+    sample_report: Sample Report
+    select_date: Select Date
+    send_report: Send Report
+    title: Reporting
+  search_builder:
+    add: Add Condition
+    button:
+      '0': Search Builder
+      _: Search Builder (%d)
+    clear_all: Clear All
+    condition: Condition
+    conditions:
+      array:
+        contains: Contains
+        empty: Empty
+        equals: Equals
+        not: Not
+        not_empty: Not Empty
+        without: Without
+      date:
+        after: After
+        before: Before
+        between: Between
+        empty: Empty
+        equals: Equals
+        not: Not
+        not_between: Not Between
+        not_empty: Not Empty
+      number:
+        between: Between
+        empty: Empty
+        equals: Equals
+        gt: Greater Than
+        gte: Greater Than Equal To
+        lt: Less Than
+        lte: Less Than Equal To
+        not: Not
+        not_between: Not Between
+        not_empty: Not Empty
+      string:
+        contains: Contains
+        empty: Empty
+        ends_with: Ends With
+        equals: Equals
+        not: Not
+        not_contains: Does Not Contain
+        not_empty: Not Empty
+        not_ends: Does Not End With
+        not_starts: Does Not Start With
+        starts_with: Starts With
+    data: Data
+    delete_title: Delete filtering rule
+    left_title: Outdent Criteria
+    logic_and: And
+    logic_or: Or
+    right_title: Indent Criteria
+    title:
+      '0': Search Builder
+      _: Search Builder (%d)
+    value: Value
+  sign_out: Sign Out
+  store_images: Store Gallery
+  submit: Submit
+  tables:
+    code: Code
+    controls: Controls
+    created_at: Created At
+    delete: Delete
+    edit: Edit
+    errors: Errors
+    item_index: Item Index
+    meaning: Meaning
+    message: Message
+    receipt: Receipt
+    retry: Retry
+    search: Search
+    sent_at: Sent At
+    show: Show
+    status: Status
+    total: Total
+    updated_at: Updated At
+    vat: VAT
+    view: View
+    view_payload: view payload
+    view_response: view response
+  terms: Terms and conditions for Tourists
+  terms_for_merchants: Terms and conditions for Stores
+  tilted_phone_alt: A phone running the Pie VAT app showing the map, a local store,
+    and request refund button
+  traveler_landing:
+    header_top_jumbo: Tax-free shopping for modern tourists
+    header_top_subtext: We believe tax-free shopping should be hassle-free, safe and
+      transparent. With the Pie VAT app you will get the highest refunds using only
+      a fraction of the time. No forms. <br/>No Lines. No hidden fees.<br/> Get a
+      bigger slice of the Pie!
+    quotes:
+      quote_1:
+        author: Kirsten C.
+        body: I loved the concept and cannot wait to use it elsewhere in the future!
+      quote_2:
+        author: Danil M.
+        body: I think your app addresses a huge need...I’ll be your huge promoter
+      quote_3:
+        author: Jin W.
+        body: About time someone did this! Smooth and painless, wish more stores worked
+          with Pie
+      quote_4:
+        author: Marcos K.
+        body: Not having to stand in line at the airport is genius, sometimes early
+          and late flights, the tax free is not even open. Pie solves that!
+    split_content:
+      slide_1:
+        body: Discover and explore unique local shops around you. This is a great
+          way to experience the city.
+        header: Explore shops around you
+      slide_2:
+        body: Easy to filter shops by category and brands! Browse what each store
+          offers. Find that perfect product!
+        header: Discover what they offer
+      slide_3:
+        body: The retailer will show you a QR code that you can scan in the app, followed
+          by taking a photo of the sales receipt through the app. This will start
+          your VAT refund and no forms are needed.
+        header: Scan the QR Code after purchase
+      slide_4:
+        body: Let us know when you leave the area, so we can start processing your
+          refund.
+        header: Scan the boarding pass at the airport
+      slide_5:
+        body: Let us know that the items made the trip home with you!
+        header: Take photos when you are home
+      slide_6:
+        body: You will be able to track your refund in the app, have any questions?
+          We are just a chat away!
+        header: Track your refund
+  trips:
+    add_photo: Take Photo of Boarding Pass
+    bp_description: Please take a photo of your boarding pass.
+    end_trip: Add Boarding Pass
+    errors:
+      already_added: Your boarding pass has already been uploaded. Make sure you take
+        photos of your items when you land
+      bcbp: We had an issue reading your boarding pass, please try again.
+      general: Something went wrong, please try again.
+      missing_photo: Please upload a photo of the boarding pass
+    nothing_active: No active trips at this time.
+  unsupported_pos: The current POS selected for this Property can not be edited. Please
+    contact support.
+  user:
+    add_bank_account: Add a Bank Account
+    add_credit_card: Add a Credit Card
+    add_payable_account: To receive a refund, you need to add a payable account.
+    index:
+      active_trip: Active Trip
+      add_boarding_pass: Add boarding pass
+      all_orders: All Orders
+      enter_code: Refund Request
+      need_photos: You have some pending orders that need their receipt photos
+      past_trips: Past Trips
+      pending_refund: Pending Refund
+      recent_orders: Recent Orders
+      register_html: You need to finish filling out your account details to receive
+        a refund. %{link}
+      title: Welcome to Pie VAT
+      value_explanation: Refund values are approximate, and actual payouts will depend
+        on currency and exchange rate fluctuations.
+      value_may_change: Value may change
+    nickname: Account nickname
+    orders:
+      basic_info: Each purchase has a set of requirements.
+      requirements_popup_body: Please fulfill the list of requirements for each purchase.
+      requirements_popup_header: Purchase Requirements
+      table:
+        payout_estimate: Estimated Refund
+        requirements: Requirements
+        store_name: Store Name
+        title: Purchases
+    view_details: View
+...
