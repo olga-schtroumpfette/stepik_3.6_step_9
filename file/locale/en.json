@@ -1,0 +1,4 @@
+{
+    "one": "<b>No hemos podido renovar tu suscripción y la cuenta se bloqueará en {{count}} día.<\/b> Pago rechazado con tu tarjeta finalizada en *{{lastCardNumbers}}",
+    "other": "<b>No hemos podido renovar tu suscripción y la cuenta se bloqueará en {{count}} días.<\/b> Pago rechazado con tu tarjeta finalizada en *{{lastCardNumbers}}"
+}
